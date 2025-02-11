@@ -90,7 +90,7 @@ wilcox.test(DataLAC14$Edad ~ DataLAC14$Sexo, data = DataLAC14, correct = FALSE) 
 eredu_sinplea<- glm(Evento~Edad, data=DataLAC14,family=binomial)
 anova(eredua_sinplea,test="Chisq") # Egiantz arrazoiaren testa 
 
-# Odds ratioa eta bere konfiantza tartea lolrtzeko:
+# Odds ratioa eta bere konfiantza tartea lortzeko:
 exp(coefficients(eredu_sinplea))   
 exp(confint.default(eredu_sinplea)) 
 
