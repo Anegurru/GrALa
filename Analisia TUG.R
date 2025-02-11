@@ -57,12 +57,12 @@ sd(DataLAC14$Edad[DataLAC14$Sexo == 'Hombre']) # Gizonezkoena
 
 sum(DataLAC14$Sgeria_P1== 1, na.rm=TRUE) # Guztira ikusmen arazoekin
 sum(DataLAC14$Sgeria_P1[DataLAC14$Sexo == 'Mujer']== 1,na.rm = TRUE) # Emakumeak ikusmen arazoekin
-sum(DataLAC14$Sgeria_P1[DataLAC14$Sexo == 'Hombre']== 1,na.rm=TRUE) # Gizonezkoak ikusmen arazoekin                                                     # Gizonezkoak ikusmen arazoekin=42 %11.57
+sum(DataLAC14$Sgeria_P1[DataLAC14$Sexo == 'Hombre']== 1,na.rm=TRUE) # Gizonezkoak ikusmen arazoekin                                                     
 
 
 sum(DataLAC14$Sgeria_P1== 2, na.rm=TRUE) # Guztira ikusmen arazorik gabe
 sum(DataLAC14$Sgeria_P1[DataLAC14$Sexo == 'Mujer']== 2,na.rm=TRUE) # Emakumeak ikusmen arazorik gabe
-sum(DataLAC14$Sgeria_P1[DataLAC14$Sexo == 'Hombre']== 2,na.rm=TRUE) # Gizonezkoek ikusmen arazorik gabe                                                     # Gizonezkoak ikusmen arazorik gabe=321 %88.43
+sum(DataLAC14$Sgeria_P1[DataLAC14$Sexo == 'Hombre']== 2,na.rm=TRUE) # Gizonezkoek ikusmen arazorik gabe        
 
 
 # Emakumezkoen eta gizonezkoen arteko ezberdintasunak ebaluatzeko
