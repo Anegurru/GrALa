@@ -9,7 +9,7 @@ library(ggplot2)  # Grafikoak irudikatzeko
 
 
 # Datu-basearen izena: DataLAC14
-# Eantzun aldagaiaren izena: Evento
+# Erantzun aldagaiaren izena: Evento
 
 # Datu-basearen irakurketa
 
